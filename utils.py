@@ -310,7 +310,10 @@ def read_csv_data(path, cols):
 
 ########### FRED ##########
 def update_fred_data(name_code, directory, earlist_time=None, time_format='%Y-%m-%d'):
-    api_key = '2a09d2010553e7564711ffd85155892a'
+    # 
+    api_key = None
+    if api_key is None:
+        return
     se = requests.session()
     URL = 'https://api.stlouisfed.org/fred/series/observations?series_id={}&observation_start={}&api_key={}&file_type=json'
 
