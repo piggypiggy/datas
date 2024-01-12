@@ -77,6 +77,19 @@ NASDAQ_ETF_DICT = {
     'EMB': 'iShares J.P. Morgan USD Emerging Markets Bond ETF',
     'EMLC': 'VanEck J.P. Morgan EM Local Currency Bond ETF, 新兴市场本币主权债ETF',
 
+    # BTC
+    'ARKB': 'ARK 21Shares Bitcoin ETF',
+    'BITB': 'Bitwise Bitcoin ETP Trust',
+    'FBTC': 'Fidelity Wise Origin Bitcoin Trust',
+    'EZBC': 'Franklin Bitcoin ETF',
+    'GBTC': 'Grayscale Bitcoin Trust',
+    'DEFI': 'Hashdex Bitcoin ETF',
+    'BTCO': 'Invesco Galaxy Bitcoin ETF',
+    'IBIT': 'iShares Bitcoin Trust',
+    'BRRR': 'Valkyrie Bitcoin Fund',
+    'HODL': 'VanEck Bitcoin Trust',
+    'BTCW': 'WisdomTree Bitcoin Trust',
+
 }
 
 
